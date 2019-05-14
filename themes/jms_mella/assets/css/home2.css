@@ -31,12 +31,13 @@
   width: auto;
   left: 18.8vw;
   bottom: 2.7vw; }
-
-.fs-pager-wrapper a,
-.fs-custom-pager-wrapper a {
-  margin: 0 7px;
-  width: 18px;
-  height: 18px; }
+  .fs-pager-wrapper span {
+    width: 18px;
+    height: 18px;
+    background: #fff;
+    margin: 0 7px;
+    -webkit-box-shadow: 0 0 11px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 11px rgba(0, 0, 0, 0.2); }
 
 .jms-slider-wrapper .text-1 {
   text-transform: uppercase;
@@ -48,7 +49,7 @@
     height: 3px;
     background: #b20f0f;
     position: absolute;
-    top: 4.05vw;
+    top: 3.9vw;
     margin-left: 1vw;
     left: -1vw; }
 
@@ -57,16 +58,22 @@
   letter-spacing: -0.089vw;
   line-height: 3.1vw; }
 
-.jms-slider-wrapper .social-wb:not(:last-child) .wb::after {
-  content: ".";
-  color: #8f8f8f;
-  position: absolute;
-  bottom: -2.4vw;
-  font-size: 1vw;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  transform: translateX(-50%); }
+.jms-slider-wrapper .wb {
+  text-transform: uppercase; }
+
+.jms-slider-wrapper .social-wb {
+  height: auto !important;
+  width: auto !important; }
+  .jms-slider-wrapper .social-wb:not(:last-child) .wb::after {
+    content: ".";
+    color: #8f8f8f;
+    position: absolute;
+    bottom: -2.4vw;
+    font-size: 1vw;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%); }
 
 .banner-1 .banner-content, .banner-2 .banner-content {
   bottom: 41px;
@@ -90,15 +97,27 @@
   background: #f2f2f2;
   padding: 99px 0 84px; }
 
+@media (max-width: 1500px) and (min-width: 1200px) {
+  .jms-slider-wrapper .social-wb {
+    font-size: 8px !important; }
+    .jms-slider-wrapper .social-wb::after {
+      display: none; } }
+
 @media (max-width: 1199px) {
   .page-index header {
-    position: relative; } }
+    position: relative; }
+  .jms-slider-wrapper .text-1::after {
+    top: 2vw; } }
 
 @media (max-width: 991px) {
   #module-group {
     right: 0; } }
 
 @media (max-width: 767px) {
+  .jms-slider-wrapper .social-wb {
+    display: none !important; }
+  .jms-slider-wrapper .text-1::after {
+    display: none; }
   .banner-1 {
     margin-bottom: 15px; } }
 

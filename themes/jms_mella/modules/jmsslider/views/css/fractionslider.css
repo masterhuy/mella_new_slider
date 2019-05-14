@@ -1,17 +1,19 @@
 .fraction-slider{
 	position:relative;
-	width:100%; height:100%;
+	width:100%; 
+	height:100%;
 	overflow:visible;
 }
 
 .fraction-slider .slide{
-	display:none; width:100%; height:100%;
+	display:none; width:100%; 
+	height:100%;
 	position:absolute;
 	z-index:500;
 }
 
 .fraction-slider .active-slide {
-	z-index:999;
+	z-index:998;
 }
 .fraction-slider .fs_obj{
 	text-align: left;
@@ -31,7 +33,8 @@
 .fraction-slider .fs_obj *{
 	display:inline-block;
 	position:relative;
-	top:0px; left:0px;
+	top:0px; 
+	left:0px;
 }
 
 .fs_loader{

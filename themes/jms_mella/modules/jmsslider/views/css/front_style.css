@@ -3,7 +3,7 @@
 	bottom: 8px;
 	width: 100%;
 	text-align: center;
-	z-index: 999;
+	z-index: 998;
 }
 .fs-pager-wrapper span{
 	width: 11px;
@@ -17,7 +17,6 @@
 }
 .fs-pager-wrapper .active span{
 	background: #b20f0f;
-	border-radius: 5px;
 }
 .jms-slider-wrapper {
 	position:relative;

@@ -38,14 +38,8 @@ body {
 
 .fs-pager-wrapper {
   width: auto;
-  left: 18vw;
-  bottom: 2.6vw; }
-
-.fs-pager-wrapper a,
-.fs-custom-pager-wrapper a {
-  margin: 0 4.5px;
-  width: 11px;
-  height: 11px; }
+  left: 17.95vw;
+  bottom: 2.7vw; }
 
 .jms-megamenu .nav.level0 {
   display: -webkit-box;
@@ -96,6 +90,12 @@ body {
 .footer-one-row {
   padding: 100px 0 100px; }
 
+@media (max-width: 1366px) and (min-width: 1200px) {
+  .jms-slider-wrapper .text-1 {
+    font-size: 30px !important; }
+  .jms-slider-wrapper .text-2 {
+    font-size: 10px !important; } }
+
 @media (max-width: 1199px) and (min-width: 992px) {
   .newsletter-type-2 #newsletter_block_left {
     padding: 55px 30px 60px; } }
@@ -138,13 +138,3 @@ body {
 @media (max-width: 767px) {
   .left-icon-group .addon-box:first-child, .left-icon-group .addon-box:nth-child(3) {
     display: none; } }
-
-@media (max-width: 481px) {
-  .fraction-slider {
-    height: 70vw !important; }
-  .jms-slider-wrapper .text-1 {
-    font-size: 10px !important; }
-  .jms-slider-wrapper .text-2, .jms-slider-wrapper .btn-underline {
-    font-size: 5px !important; }
-  .jms-banner .banner-content {
-    bottom: 5px; } }

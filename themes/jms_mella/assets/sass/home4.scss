@@ -28,6 +28,9 @@
 	padding: 60px 0;
 }
 .jms-slider-wrapper{
+	.jms-slide-content{
+		width: auto !important;
+	}
 	.text-1{
 		font-weight: 600;
 		letter-spacing: 0.292vw;
@@ -37,7 +40,7 @@
 			height: 2px;
 			background: #b20f0f;
 			position: absolute;
-			top: -1.9vw;
+			top: -2.1vw;
 			margin-left: 1vw;
 			left: -1vw;
 		}
@@ -46,6 +49,14 @@
 		font-weight: 600;
 		letter-spacing: -0.1vw;
 		line-height: 2.6vw;
+	}
+}
+.fs-pager-wrapper{
+	bottom: 52px;
+	span {
+		width: 14px;
+		height: 14px;
+		margin: 0 5px;
 	}
 }
 .banner-1{
@@ -172,6 +183,14 @@ a#open-button{
 @media (max-width: 1366px) and (min-width: 1200px){
 	.banner-1, .banner-2{
 		margin-bottom: 25px;
+	}
+	.jms-slider-wrapper{
+		.text-2{
+			font-size: 35px !important;
+		}
+		.text-3{
+			font-size: 13px !important;
+		}
 	}
 }
 @media (max-width: 1199px) and (min-width: 992px){
