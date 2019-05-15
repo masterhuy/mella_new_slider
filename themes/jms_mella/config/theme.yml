@@ -37,10 +37,6 @@ assets:
        path: assets/js/bootstrap.min.js
        priority: 2
        position: bottom
-     - id: slick
-       path: assets/js/slick.min.js
-       priority: 3
-       position: bottom
      - id: elevatezoom
        path: assets/js/jquery.elevatezoom.js
        priority: 4

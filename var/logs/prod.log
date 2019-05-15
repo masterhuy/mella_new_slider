@@ -57,3 +57,7 @@
 [2019-05-13 00:49:30] security.DEBUG: User was reloaded from a user provider. {"provider":"PrestaShopBundle\\Security\\Admin\\EmployeeProvider","username":"admin@admin.com"} []
 [2019-05-13 00:49:36] app.ERROR: Data from PrestaShop Addons is invalid, and cannot fallback on cache.  {"exception":"cURL error 28: Operation timed out after 5007 milliseconds with 309357904396288 bytes received"} []
 [2019-05-13 00:49:36] security.DEBUG: Stored the security token in the session. {"key":"_security_main"} []
+[2019-05-14 21:47:12] request.INFO: Matched route "admin_module_manage". {"route":"admin_module_manage","route_parameters":{"category":null,"keyword":null,"_controller":"PrestaShopBundle\\Controller\\Admin\\Improve\\ModuleController::manageAction","_legacy_controller":"AdminModulesManage","_legacy_link":["AdminModulesManage","AdminModulesSf"],"_route":"admin_module_manage"},"request_uri":"http://localhost/jms_mella/admin538senhgh/index.php/improve/modules/manage?_token=eN4vr_BEFGAj0iJzjXTz2KNg8I0VTPGKUrdv6wyXEZo","method":"GET"} []
+[2019-05-14 21:47:12] security.INFO: Populated the TokenStorage with an anonymous Token. [] []
+[2019-05-14 21:47:24] app.ERROR: Data from PrestaShop Addons is invalid, and cannot fallback on cache.  {"exception":"cURL error 28: Operation timed out after 5008 milliseconds with 495931283734528 bytes received"} []
+[2019-05-14 21:47:46] security.DEBUG: Stored the security token in the session. {"key":"_security_main"} []

@@ -10,13 +10,26 @@
 	width: 100%;
 	padding: 0 15px;
 }
-.header_slider{
+.jms-row.slider{
 	margin-top: 45px;
 	position: relative;
 	z-index: 1;
 	.container-fluid{
 		> .row{
 			display: flex;
+		}
+	}
+}
+.jms-slider-wrapper{
+	.text-1.first{
+		&::after {
+			content: "";
+			width: 2.95vw;
+			height: 4px;
+			background: #b20f0f;
+			position: absolute;
+			top: -2.94vw;
+			left: 0;
 		}
 	}
 }
@@ -113,6 +126,11 @@
 }
 #footer{
 	padding: 60px 0;
+}
+@media (max-width: 1366px) and (min-width: 1200px){
+	.text-1.jms-slide-content{
+		font-size: 50px !important;
+	}
 }
 @media (min-width: 992px){
 	#cart_block{

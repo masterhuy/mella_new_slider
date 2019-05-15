@@ -26,7 +26,7 @@ body.toplevel_page_woo-notification {
     text-align: left;
     top: auto !important;
     width: auto;
-    z-index: 999;
+    z-index: 998;
 }
 
 #woorebought-popup.bottom_right {
