@@ -102,4 +102,17 @@
   .jms-slider-wrapper .text-2 {
     font-size: 11px !important; }
   .footer_b img {
-    width: 100%; } }
+    width: 100%; }
+  div#newsletter_block_left {
+    padding: 0; }
+    div#newsletter_block_left .form-group {
+      display: block;
+      background: transparent;
+      border: 0; }
+      div#newsletter_block_left .form-group input {
+        text-align: center;
+        background: #fff;
+        margin-bottom: 15px;
+        border-radius: 30px; }
+    div#newsletter_block_left .newsletter-btn {
+      width: 100%; } }

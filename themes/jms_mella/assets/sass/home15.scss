@@ -167,6 +167,11 @@
 	}
 }
 @media (max-width: 991px){
+	a#open-button {
+		padding-top: 0;
+		position: relative;
+		bottom: 2px;
+	}
 	#header{
 		max-width: 780px;
 		margin: auto;

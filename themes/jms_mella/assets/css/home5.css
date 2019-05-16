@@ -96,6 +96,8 @@
     justify-content: center; } }
 
 @media (max-width: 767px) {
+  .fraction-slider .prev, .fraction-slider .next {
+    display: none; }
   .banner-1, .banner-2, .banner-4, .banner-5 {
     margin-bottom: 20px; }
   .jms-banner .banner-content {

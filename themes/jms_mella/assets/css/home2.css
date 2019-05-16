@@ -9,6 +9,10 @@
     .main-site.open-sidebar1 .top_menu_second {
       right: 0; }
 
+.jms-row.header.fixed {
+  left: auto;
+  right: 0; }
+
 .jms-row.header {
   left: auto;
   right: 0; }
@@ -110,6 +114,8 @@
     top: 2vw; } }
 
 @media (max-width: 991px) {
+  div.top_menu_second {
+    bottom: 24px; }
   #module-group {
     right: 0; } }
 
@@ -119,7 +125,10 @@
   .jms-slider-wrapper .text-1::after {
     display: none; }
   .banner-1 {
-    margin-bottom: 15px; } }
+    margin-bottom: 15px; }
+  .fs-pager-wrapper span {
+    width: 11px;
+    height: 11px; } }
 
 @media (max-width: 481px) {
   .banner-1 .banner-content .text,

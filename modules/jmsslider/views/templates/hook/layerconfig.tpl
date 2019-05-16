@@ -116,7 +116,7 @@
 
                 <div id="tab_position_{$layer->id}" class="tabcontent">
                     <div class="row">
-                        <div class="form-group col-lg-3">
+                        <div class="form-group col-lg-3" style="display:none">
                             <span data-original-title="Typing 'full' to full width, 'half' to a half width and 'quarter' to a quarter width" class="label-tooltip" data-toggle="tooltip" data-html="true" ><i class="material-icons">settings_ethernet</i></span>
                             <div class="col-lg-8">
                                 <div class="input-group">
@@ -126,7 +126,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="form-group col-lg-3">
+                        <div class="form-group col-lg-3" style="display:none">
                             <span data-original-title="Typing 'full' to full height, 'half' to a half height and 'quarter' to a quarter height" class="label-tooltip" data-toggle="tooltip" data-html="true" ><i class="material-icons rotate90">settings_ethernet</i></span>
                             <div class="col-lg-8">
                                 <div class="input-group">

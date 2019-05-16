@@ -158,7 +158,10 @@
       display: inline-block;
       margin: 0 14px; }
   .shoppingcart-box {
-    text-align: left; } }
+    text-align: left; }
+  a#open-button {
+    position: relative;
+    bottom: 2px; } }
 
 @media (max-width: 767px) {
   .btn-group.module-group-box {

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-05-13 00:52:56
+/* Smarty version 3.1.33, created on 2019-05-15 21:58:29
   from 'D:\xamppp\htdocs\jms_mella\modules\jmsslider\views\templates\hook\layerconfig.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5cd8f828139a60_34444551',
+  'unifunc' => 'content_5cdcc3c56ec374_95543401',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fbc96068c16caf88dd41da4ca6c7269c76ddfb5a' => 
     array (
       0 => 'D:\\xamppp\\htdocs\\jms_mella\\modules\\jmsslider\\views\\templates\\hook\\layerconfig.tpl',
-      1 => 1556096412,
+      1 => 1557914258,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5cd8f828139a60_34444551 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5cdcc3c56ec374_95543401 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div id="form_layer_<?php echo $_smarty_tpl->tpl_vars['layer']->value->id;?>
 " class="form-layer panel-bodyclearfix" style="display:none">
     <input type="hidden" name="layer_ids[]" value="<?php echo $_smarty_tpl->tpl_vars['layer']->value->id;?>
@@ -192,7 +192,7 @@ _off">No</label>
                 <div id="tab_position_<?php echo $_smarty_tpl->tpl_vars['layer']->value->id;?>
 " class="tabcontent">
                     <div class="row">
-                        <div class="form-group col-lg-3">
+                        <div class="form-group col-lg-3" style="display:none">
                             <span data-original-title="Typing 'full' to full width, 'half' to a half width and 'quarter' to a quarter width" class="label-tooltip" data-toggle="tooltip" data-html="true" ><i class="material-icons">settings_ethernet</i></span>
                             <div class="col-lg-8">
                                 <div class="input-group">
@@ -205,7 +205,7 @@ _off">No</label>
                                 </div>
                             </div>
                         </div>
-                        <div class="form-group col-lg-3">
+                        <div class="form-group col-lg-3" style="display:none">
                             <span data-original-title="Typing 'full' to full height, 'half' to a half height and 'quarter' to a quarter height" class="label-tooltip" data-toggle="tooltip" data-html="true" ><i class="material-icons rotate90">settings_ethernet</i></span>
                             <div class="col-lg-8">
                                 <div class="input-group">

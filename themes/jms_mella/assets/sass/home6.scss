@@ -149,7 +149,7 @@ body{
 	a#open-button{
 		padding-top: 0;
 		position: relative;
-		bottom: 5px;
+		bottom: 7px;
 	}
 	.newsletter-type-2{
 		margin-bottom: 20px;
@@ -173,5 +173,8 @@ body{
 				display: none;
 			}
 		}
+	}
+	.fs-pager-wrapper{
+		display: none;
 	}
 }

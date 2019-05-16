@@ -75,7 +75,7 @@
     font-size: 16px;
     letter-spacing: 0; }
   .fs-pager-wrapper {
-    left: 7.5vw; }
+    display: none; }
   .left-icon-group .addon-box:first-child, .left-icon-group .addon-box:nth-child(2) {
     display: none; } }
 

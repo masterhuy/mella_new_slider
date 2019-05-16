@@ -21,7 +21,9 @@
 		padding: 10px 0;
 	}
 }
-
+#index{
+	overflow-x: hidden;
+}
 .header{
 	.container > .row, .container-fluid > .row{
 		display: flex;
@@ -349,6 +351,9 @@
 	height: 100%;
 	background: #fff;
 	z-index: 999;
+	&.new-zindex{
+		z-index: 99999;
+	}
 	.container{
 		width: 100%;
 	}
@@ -4043,6 +4048,9 @@ a.wishlist_top{
 	}
 }
 @media (max-width: 767px){
+	.mega-tab-center .mega_cates_tab .addon-desc {
+		margin-bottom: 0px;
+	}
 	.btn-underline.jms-slide-content{
 		&::before, &::after{
 			display: none;

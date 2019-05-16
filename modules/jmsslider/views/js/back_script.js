@@ -171,11 +171,9 @@ $(document).ready(function () {
 	$('.panel-layers .form-layer').first().show();
 	$('.tp-caption').css("cursor", "move");
 	$('.layer').click(function () {
-		console.log(this);
 		strId = $(this).attr('id');
 	    patt1 = /\d+$/g;
 	    currentId = strId.match(patt1);
-	    console.log('layer:',strId, this);
 		$('.layer').removeClass('active')
 		$(this).addClass('active');
 		$('#caption_' + currentId).addClass('active');
@@ -862,7 +860,8 @@ $(document).ready(function () {
 	main_layer = $('#id_layer').val();
 	if (main_layer != '')
 		$('#caption_'+main_layer).trigger('click');
-	drawRuler();
+	// drawRuler();
+    activeCommonStyle();
 	//mobile style
 
 	$('.data-x').keyup(function (e) {
@@ -935,9 +934,23 @@ $(document).ready(function () {
 			id = getId(this);
 			$(this).css('top' , $('input[name='+top+id+']').val()+'px');
 			$(this).css('left', $('input[name='+left+id+']').val()+'px');
-			$(this).css('width' , $('input[name='+width+id+']').val()+'px');
-			$(this).css('height', $('input[name='+height+id+']').val()+'px');
-		})
+            w = Number($('input[name='+width+id+']').val());
+            h = Number($('input[name='+height+id+']').val());
+            if (w <= 0) {
+                w = $(this).width();
+                $('input[name='+width+id+']').val($(this).width());
+            }
+            else
+                w += 'px';
+            if (h <= 0) {
+                h = $(this).height();
+                $('input[name='+height+id+']').val($(this).height());
+            }
+            else
+                h += 'px';
+            $(this).css('width' , w);
+			$(this).css('height', h);
+    	})
 	}
 	function setVisible(mobile) {
 		if (style=='mobile') {
@@ -992,7 +1005,6 @@ $(document).ready(function () {
 		})
 	}
 	function selectFirstLayer() {
-		console.log('first');
 		$('#frame_layer .layer').first().trigger('click');
 	}
     function activeMobileStyle() {
@@ -1061,6 +1073,7 @@ $(document).ready(function () {
         	selectFirstLayer();
     }
     function activeCommonStyle() {
+        console.log('alo');
     	if (style ==' desktop')
     		return;
     	$('.defaultOpen').click();

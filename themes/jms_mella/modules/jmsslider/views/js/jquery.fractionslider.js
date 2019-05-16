@@ -1227,7 +1227,6 @@
 				// calculate % height
 				if (obj.attr("height") != null && obj.attr("height") != "") {
 					value = obj.attr("height");
-					console.log('a');
 					y = pixelToPercent(value, dY);
 					obj.attr("height", y + "%");
 					obj.css("height", y + "%");
@@ -1284,7 +1283,6 @@
 		function resizeSlider() {
 			var w = slider.innerWidth(), h = slider.innerHeight();
 			wWidth = $(window).width();
-			console.log(wWidth);
 			if (w <= dX || options.increase ) {
 
 				var xy = dX / dY, nH = w / xy;

@@ -233,6 +233,10 @@ a#open-button {
       font-size: 10px; } }
 
 @media (max-width: 481px) {
+  .fs-pager-wrapper span {
+    width: 11px;
+    height: 11px;
+    margin: 0; }
   .banner-1 {
     width: 100%;
     padding-right: 0; }

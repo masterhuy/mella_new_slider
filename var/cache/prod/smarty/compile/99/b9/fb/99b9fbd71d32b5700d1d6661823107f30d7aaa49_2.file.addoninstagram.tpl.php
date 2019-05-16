@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-05-13 01:01:16
+/* Smarty version 3.1.33, created on 2019-05-15 23:33:19
   from 'D:\xamppp\htdocs\jms_mella\themes\jms_mella\modules\jmspagebuilder\views\templates\hook\addoninstagram.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5cd8fa1c8ae497_43297808',
+  'unifunc' => 'content_5cdcd9ff20a4c2_08542228',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '99b9fbd71d32b5700d1d6661823107f30d7aaa49' => 
     array (
       0 => 'D:\\xamppp\\htdocs\\jms_mella\\themes\\jms_mella\\modules\\jmspagebuilder\\views\\templates\\hook\\addoninstagram.tpl',
-      1 => 1552531116,
+      1 => 1557977585,
       2 => 'file',
     ),
   ),
@@ -20,14 +20,14 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5cd8fa1c8ae497_43297808 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5cdcd9ff20a4c2_08542228 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="addon-instagram">
 	<div class="addon-title">
 		<h3>
 			<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Follow us','d'=>'Modules.JmsPagebuilder'),$_smarty_tpl ) );?>
 
 		</h3>
-		<span><?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'#Bella','d'=>'Modules.JmsPagebuilder'),$_smarty_tpl ) );?>
+		<span>#<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['l'][0], array( array('s'=>'Mella','d'=>'Modules.JmsPagebuilder'),$_smarty_tpl ) );?>
 </span>
 	</div>
 	<div class="instagram-carousel">

@@ -201,6 +201,10 @@
 	.shoppingcart-box {
 		text-align: left;
 	}
+	a#open-button{
+		position: relative;
+		bottom: 2px;
+	}
 }
 
 @media (max-width: 767px){

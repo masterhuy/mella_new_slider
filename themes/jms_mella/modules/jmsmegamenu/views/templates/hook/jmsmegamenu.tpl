@@ -8,7 +8,7 @@
 
 <div class="jms-megamenu-wrap">
 	<a id="open-button" class="open-button hidden-lg hidden-md" href="#">
-		<i class="fa fa-bars"></i>
+		<img src="themes/jms_mella/assets/img/icon/open-menu.png">
 	</a>
 	{$menu_html|escape:'' nofilter}
 </div>
