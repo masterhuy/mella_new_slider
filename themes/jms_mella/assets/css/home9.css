@@ -37,6 +37,8 @@
     width: 217px;
     background: #fff;
     height: 100%; }
+    #header.new-zindex {
+      z-index: 99999; }
   .header-left {
     width: 100%;
     text-align: center; }

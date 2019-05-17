@@ -46,6 +46,9 @@
 		width: 217px;
 		background: #fff;
 		height: 100%;
+		&.new-zindex{
+			z-index: 99999;
+		}
 	}
 	.header-left{
 		width: 100%;

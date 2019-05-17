@@ -41,9 +41,7 @@
 			</ul>
 		</div>
 	</div>
-{/if}
 
-{if count($languages) > 1}
 	<div class="btn-group compact-hidden languages-info type-2">
 		<p class="">{l s='Select Language' d='Shop.Theme.Actions'}</p>
 		<a href="#languages-2" class="btn-xs" data-toggle="collapse">
@@ -61,6 +59,19 @@
 				{/foreach}		
 			</ul>
 		</div>
+	</div>
+
+	<div class="btn-group compact-hidden languages-info type-3">
+		<span class="title btn-name">{l s='Select Language:' d='Shop.Theme.Global'}</span>
+		<ul class="languages-list">
+			{foreach from=$languages key=k item=language name="languages"}
+				<li {if $language.id_lang == $current_language.id_lang} class="current" {/if}>
+					<a href="{url entity='language' id=$language.id_lang}" class="dropdown-item">
+					  <img alt="{$language.iso_code}" src="{$urls.base_url}img/l/{$language.id_lang}.jpg" width="20" height="14"/>
+					</a>
+				</li>
+			{/foreach}		
+		</ul>
 	</div>
 {/if}
 <!-- /Block languages module -->

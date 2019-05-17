@@ -60,7 +60,7 @@
     top: 0;
     transition: left 0.4s cubic-bezier(0.7, 0, 0.3, 1) 0s;
     width: 300px;
-    z-index: 99999;
+    z-index: 999999;
 }
 #off-canvas-menu {
 	background: #fff;

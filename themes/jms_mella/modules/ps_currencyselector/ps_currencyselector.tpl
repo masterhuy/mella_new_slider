@@ -55,3 +55,13 @@
 		</ul>
 	</div>
 </div>
+<div id="_desktop_currency_selector" class="btn-group compact-hidden currency-info type-3">
+	<span class="title btn-name">{l s='Currency:' d='Shop.Theme.Global'}</span>	
+	<ul>
+      	{foreach from=$currencies item=currency}
+	        <li {if $currency.current} class="current" {/if}>
+	          	<a title="{$currency.name}" rel="nofollow" href="{$currency.url}" class="dropdown-item">{$currency.iso_code} {$currency.sign}</a>
+	        </li>
+      	{/foreach}
+	</ul>
+</div>

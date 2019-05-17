@@ -533,15 +533,21 @@
 	.btn-close{
 		visibility: hidden;
 		position: fixed;
-	    top: 20px;
-	    right: 30px;
-	    cursor: pointer;
-	    z-index: 9999;
+		top: 0;
+		right: 0;
+		cursor: pointer;
+		z-index: 999991;
+		width: 100%;
+		height: 100%;
+		padding: 30px;
+		display: flex;
+		justify-content: flex-end;
 	}
 	span > .fa-close {
 	    color: #fff;
 	    font-family: FontAwesome;
 	    font-size: 30px;
+	    height: 32px;
 	}
 	.bg-overlay {
 	    content: "";
@@ -554,7 +560,7 @@
 	    height: 100%;
 	    background: rgba(0,0,0,0.9);
 	    transition: .6s all;
-	    z-index: 999;
+	    z-index: 99999;
 	}
 }
 .jms-row.video{
@@ -563,7 +569,7 @@
 		    position: fixed;
 		    max-width: 1000px;
 		    top: 200px;
-		    z-index: 9999;
+		    z-index: 999999;
 		    border: 2px solid #fff;
 		    left: 50%;
 		    transform: translateX(-50%);
@@ -718,8 +724,11 @@
 //
 
 .top_menu_second{
-	.container > .row{
-		margin: 0;
+	.container{
+		position: unset;
+		> .row{
+			margin: 0;
+		}
 	}
 	.layout-column{
 		padding: 0;
@@ -730,9 +739,14 @@
 	.jms-megamenu .collection > .dropdown-menu{
 		width: 815px;
 	}
+	.right_menu{
+		margin-bottom: 102px;
+	}
+	.social_icon{
+		position: absolute;
+		bottom: 75px;
+	}
 	#social_block{
-		position: relative;
-		margin-top: 410px;
 		&::before{
 			content: "";
 			width: 293px;
@@ -742,6 +756,20 @@
 			top: -78px;
 			left: 50%;
 			transform: translateX(-50%);
+		}
+	}
+	#_desktop_currency_selector{
+		margin-bottom: 23px;
+	}
+	.currency-info, .languages-info{
+		&.type-1{
+			display: none;
+		}
+		&.type-3{
+			display: block;
+		}
+		ul li{
+			padding: 0;
 		}
 	}
 }
@@ -2692,7 +2720,7 @@ a.wishlist_top{
 
 //currency-info
 .currency-info{
-	&.type-2{
+	&.type-2, &.type-3{
 		display: none;
 	}
 }
@@ -4249,6 +4277,10 @@ a.wishlist_top{
 		.flex-middle{
 			justify-content: center;
 			margin-bottom: 40px;
+			flex-direction: column;
+			.addon-box{
+				margin-bottom: 20px;
+			}
 		}
 		.right{
 			text-align: center;

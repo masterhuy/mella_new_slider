@@ -26,10 +26,10 @@
 .page-index header {
   position: absolute;
   width: 100%;
-  z-index: 9999; }
+  z-index: 99999; }
 
 .mega_menu {
-  padding-bottom: 7px; }
+  padding-bottom: 5px; }
 
 .fs-pager-wrapper {
   width: auto;
