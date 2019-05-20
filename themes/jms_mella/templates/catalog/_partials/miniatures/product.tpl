@@ -119,8 +119,14 @@
 		<button {if $product.quantity < 1}disabled{/if} title="{if $product.quantity < 1}{l s='Out of Stock' d='Shop.Theme.Actions'}{else}{l s='Add to Cart' d='Shop.Theme.Actions'}{/if}" class="ajax-add-to-cart btn-underline product-btn cart-button {if $product.quantity < 1}disabled{/if}" data-id-product="{$product.id}" data-minimal-quantity="{$product.minimal_quantity}" data-token="{if isset($static_token) && $static_token}{$static_token}{/if}">
 			<span class="la la-spin la-spinner"></span>
 			<span class="la la-check"></span>
-			<span class="text-addcart"><span class="plus">+</span>{l s='Add to cart' d='Shop.Theme.Actions'}</span>		
-			<span class="text-outofstock"><i class="la la-ban"></i></span>								   
+			<span class="text-addcart">
+				<span class="plus">+</span>
+				{l s='Add to cart' d='Shop.Theme.Actions'}
+			</span>		
+			<span class="text-outofstock">
+				<i class="la la-ban"></i>
+				{l s='Out of stock' d='Shop.Theme.Actions'}
+			</span>								   
 		</button>
 		<div class="btn-group">
 	   	    <a href="#" data-link-action="quickview" class="quick-view product-btn hidden-xs" title="{l s='Quick view' d='Shop.Theme.Actions'}">

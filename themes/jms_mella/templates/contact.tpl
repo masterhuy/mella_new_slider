@@ -26,14 +26,14 @@
 
 {block name='page_header_container'}{/block}
 
-{block name='left_column'}
-  <div id="left-column" class="col-xs-12 col-sm-3">
-    {widget name="ps_contactinfo" hook='displayLeftColumn'}
-  </div>
-{/block}
-
 {block name='page_content'}
   {widget name="contactform"}
+{/block}
+
+{block name='right_column'}
+  <div id="right-column" class="col-xs-12 col-sm-3">
+    {widget name="ps_contactinfo" hook='displayRightColumn'}
+  </div>
 {/block}
 
 

@@ -60,15 +60,23 @@
 		}
 	}
 }
-.footer-one-row .find-us {
-	text-align: center !important;
+.footer-one-row{
+	padding: 60px 0;
+	.find-us {
+		text-align: center !important;
+	}
+	.flex-middle p{
+		margin-left: 22px;
+		letter-spacing: 0;
+		text-transform: capitalize;
+		span {
+			color: #000;
+		}
+	}
 }
 
 @media (max-width: 991px){
 	.header {
 		padding: 20px 0;
 	}
-}
-@media (max-width: 767px){
-
 }

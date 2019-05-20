@@ -56,6 +56,10 @@
 		.container{
 			width: 100%;
 		}
+		#login-2{
+			position: unset !important;
+			box-shadow: unset;
+		}
 		.layout-column{
 			.addon-box:first-child{
 				display: flex;

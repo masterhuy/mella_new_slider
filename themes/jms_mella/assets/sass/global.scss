@@ -85,8 +85,10 @@
 	.container{
 		width: 323px;
 	}
+	.social_icon{
+		bottom: 34px;
+	}
 	#social_block{
-		margin-top: 445px;
 		ul li{
 			margin: 0 27px;
 		}
@@ -852,13 +854,14 @@
 	.countdown-section {
 		display: inline-flex;
 		flex-direction: column;
-		min-width: 100px;
-		padding: 0 20px;
+		width: 100px;
+		padding: 0 15px;
 		height: 106px;
 		background: #fff;
 		margin-right: 10px;
 		justify-content: center;
 		align-items: center;
+		overflow: hidden;
 	}
 	.countdown-amount {
 		font-size: 49px;
@@ -964,6 +967,10 @@
 	}
 	p{
 		margin-bottom: 0;
+	}
+	#login-2{
+		position: unset !important;
+		box-shadow: unset;
 	}
 }
 
@@ -2725,6 +2732,12 @@ a.wishlist_top{
 	}
 }
 
+.languages-info{
+	&.type-2, &.type-3{
+		display: none;
+	}
+}
+
 //cart
 .ajax_cart_quantity {
 	background: $active none repeat scroll 0 0;
@@ -3386,6 +3399,7 @@ a.wishlist_top{
 		max-width: 100%;
 		padding: 57px 0;
 		border-bottom: 1px solid #ddd;
+		margin-bottom: 0;
 		.block_content{
 			display: flex;
 			align-items: center;
@@ -3559,6 +3573,9 @@ a.wishlist_top{
 			}
 		}
 	}
+}
+#footer .footer-one-row #social_block ul li {
+	margin: 0 14px;
 }
 
 
@@ -3823,11 +3840,7 @@ a.wishlist_top{
 		letter-spacing: 0;
 	}
 }
-.languages-info{
-	&.type-2{
-		display: none;
-	}
-}
+
 #languages-2, 
 #currency-2 {
 	top: 100%;

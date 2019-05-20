@@ -30,10 +30,10 @@
 				</div>
 				<div class="cart-button">
 					<a class="button_order_cart btn-active" href="{$cart_url}" title="{l s='Check out' d='Shop.Theme'}" rel="nofollow">
-						{l s='View cart' d='Shop.Theme'}
+						{l s='View cart' d='Shop.Theme.Actions'}
 					</a>
 					<a class="button_order_cart btn-black" href="{$urls.pages.order}" title="{l s='Check out' d='Shop.Theme'}" rel="nofollow">
-						{l s='Checkout' d='Shop.Theme'}
+						{l s='Checkout' d='Shop.Theme.Actions'}
 					</a> 
 				</div>
 			</div>

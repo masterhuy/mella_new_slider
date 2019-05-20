@@ -44,6 +44,10 @@
       font-size: 24px; }
   .fixed-right .module-group {
     text-align: left; }
+  .fixed-right #login-2 {
+    position: unset !important;
+    -webkit-box-shadow: unset;
+    box-shadow: unset; }
 
 .mega_menu {
   display: -webkit-box;
@@ -57,7 +61,7 @@
   opacity: 1;
   visibility: visible; }
 
-.logo {
+#header .logo {
   padding: 60px 0; }
 
 .jms-slider-wrapper .text-1 {

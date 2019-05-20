@@ -83,14 +83,14 @@
   border-right: 0; }
   .top_menu_second.v2 .container {
     width: 323px; }
-  .top_menu_second.v2 #social_block {
-    margin-top: 445px; }
-    .top_menu_second.v2 #social_block ul li {
-      margin: 0 27px; }
-    .top_menu_second.v2 #social_block::before {
-      width: 240px;
-      top: -38px;
-      background: #2e2e2e; }
+  .top_menu_second.v2 .social_icon {
+    bottom: 34px; }
+  .top_menu_second.v2 #social_block ul li {
+    margin: 0 27px; }
+  .top_menu_second.v2 #social_block::before {
+    width: 240px;
+    top: -38px;
+    background: #2e2e2e; }
   .top_menu_second.v2 .jms-megamenu .item-fullwidth > .dropdown-menu {
     left: 100% !important;
     right: auto; }
@@ -757,8 +757,8 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  min-width: 100px;
-  padding: 0 20px;
+  width: 100px;
+  padding: 0 15px;
   height: 106px;
   background: #fff;
   margin-right: 10px;
@@ -767,7 +767,8 @@
   justify-content: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
-  align-items: center; }
+  align-items: center;
+  overflow: hidden; }
 
 .countdown-box .countdown-amount {
   font-size: 49px;
@@ -867,6 +868,10 @@
     padding-top: 6px; }
   .left-icon-group p {
     margin-bottom: 0; }
+  .left-icon-group #login-2 {
+    position: unset !important;
+    -webkit-box-shadow: unset;
+    box-shadow: unset; }
 
 .intro-text {
   font-size: 32px;
@@ -2399,6 +2404,9 @@ a.wishlist_top {
 .currency-info.type-2, .currency-info.type-3 {
   display: none; }
 
+.languages-info.type-2, .languages-info.type-3 {
+  display: none; }
+
 .ajax_cart_quantity {
   background: #b20f0f none repeat scroll 0 0;
   border-radius: 50%;
@@ -2953,7 +2961,8 @@ a.wishlist_top {
 .newsletter-type-3 #newsletter_block_left {
   max-width: 100%;
   padding: 57px 0;
-  border-bottom: 1px solid #ddd; }
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 0; }
   .newsletter-type-3 #newsletter_block_left .block_content {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -3090,6 +3099,9 @@ a.wishlist_top {
     letter-spacing: 0.6px; }
     .footer-one-row .flex-middle p span {
       color: #b20f0f; }
+
+#footer .footer-one-row #social_block ul li {
+  margin: 0 14px; }
 
 .footer-top-1 {
   padding: 100px 0; }
@@ -3308,9 +3320,6 @@ a.wishlist_top {
 
 .jms-row.topbar .right .title {
   letter-spacing: 0; }
-
-.languages-info.type-2 {
-  display: none; }
 
 #languages-2,
 #currency-2 {

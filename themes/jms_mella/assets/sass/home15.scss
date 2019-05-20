@@ -45,7 +45,10 @@
 	.module-group{
 		text-align: left;
 	}
-	
+	#login-2{
+		position: unset !important;
+		box-shadow: unset;
+	}
 }
 .mega_menu{
 	display: flex;
@@ -55,7 +58,7 @@
 	opacity: 1;
 	visibility: visible;
 }
-.logo{
+#header .logo{
 	padding: 60px 0;
 }
 .jms-slider-wrapper{

@@ -44,6 +44,10 @@
     text-align: center; }
     .header-left .container {
       width: 100%; }
+    .header-left #login-2 {
+      position: unset !important;
+      -webkit-box-shadow: unset;
+      box-shadow: unset; }
     .header-left .layout-column .addon-box:first-child {
       display: -webkit-box;
       display: -ms-flexbox;

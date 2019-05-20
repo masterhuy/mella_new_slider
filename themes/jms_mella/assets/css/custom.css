@@ -1837,6 +1837,7 @@ ul.cart_block_list li:not(:last-child){
 .product-preview .product_action button.cart-button i,
 .product-preview .product_button button.cart-button i{
   font-size: 26px;
+  margin-right: 8px;
 }
 .price {
   margin: 0;
@@ -4035,7 +4036,7 @@ sup.required {
   height: 100%;
   left: 0;
   top: 0;
-  z-index: 99999;
+  z-index: 999999;
   background: rgba(0, 0, 0, 0.85); }
 
 .spinner1 {

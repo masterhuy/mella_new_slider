@@ -54,8 +54,16 @@
       -ms-transform: scale(0, 1);
       transform: scale(0, 1); }
 
-.footer-one-row .find-us {
-  text-align: center !important; }
+.footer-one-row {
+  padding: 60px 0; }
+  .footer-one-row .find-us {
+    text-align: center !important; }
+  .footer-one-row .flex-middle p {
+    margin-left: 22px;
+    letter-spacing: 0;
+    text-transform: capitalize; }
+    .footer-one-row .flex-middle p span {
+      color: #000; }
 
 @media (max-width: 991px) {
   .header {

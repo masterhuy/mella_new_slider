@@ -21,7 +21,7 @@
 	line-height:30px;	
 	cursor:pointer;    
 	width:310px;	
-	z-index:10001; 
+	z-index:999991; 
 	font-size:12px;	
 }
 #jmstools-arrow {

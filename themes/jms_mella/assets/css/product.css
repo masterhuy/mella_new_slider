@@ -845,7 +845,7 @@
 #product{
     letter-spacing: 0;
 }
-#product  .selector_before {
+#product .selector_before {
     background: rgba(0, 0, 0, 0) none repeat scroll 0 center;
     border-bottom: 2px solid #f0f0f0;
     overflow: hidden;
@@ -854,8 +854,12 @@
 }
 .zoomContainer{
     overflow: hidden;
+    z-index: 1;
 }
-
+#product #header{
+    position: relative;
+    z-index: 2;
+}
 #product .selector_before::before {
     border-right: 0 none;
     border-top: 0 none;

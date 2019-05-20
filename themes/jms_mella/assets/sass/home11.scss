@@ -27,6 +27,9 @@
 	padding: 0;
 	margin-bottom: 47px;
 }
+.product-preview .product-info {
+	min-height: 104px;
+}
 .jms-row.video{
 	.addon-video{
 		background: url('../img/h11-addon-vd-bg.jpg') no-repeat center bottom;
@@ -40,8 +43,19 @@
 .top_menu_second.v2{
 	border-color: #fff;
 }
-.footer-one-row .find-us {
-	text-align: center !important;
+.footer-one-row{
+	padding: 64px 0;
+	.find-us {
+		text-align: center !important;
+	}
+	.flex-middle p{
+		margin-left: 22px;
+		letter-spacing: 0;
+		text-transform: capitalize;
+		span {
+			color: #000;
+		}
+	}
 }
 
 @media (max-width: 991px){
