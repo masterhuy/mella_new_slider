@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-05-13 22:04:57
+/* Smarty version 3.1.33, created on 2019-05-22 03:57:48
   from 'D:\xamppp\htdocs\jms_mella\themes\jms_mella\modules\jmspagebuilder\views\templates\hook\addonmodulegroup.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5cda2249dfa912_08398357',
+  'unifunc' => 'content_5ce500fcd6dea9_39625191',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5cda2249dfa912_08398357 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ce500fcd6dea9_39625191 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="btn-group module-group-box">
 	<a title="Search" data-toggle="collapse" class="btn-groupmodule" href="#module-group">
 		<?php if ($_smarty_tpl->tpl_vars['icon_class']->value) {?>

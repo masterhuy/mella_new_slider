@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.33, created on 2019-05-16 00:05:54
+/* Smarty version 3.1.33, created on 2019-05-22 04:11:58
   from 'D:\xamppp\htdocs\jms_mella\themes\jms_mella\modules\jmspagebuilder\views\templates\hook\addonvideo.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.33',
-  'unifunc' => 'content_5cdce1a2956270_50306676',
+  'unifunc' => 'content_5ce5044ee083d3_70727728',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5cdce1a2956270_50306676 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5ce5044ee083d3_70727728 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="addon-video">
     <?php if ($_smarty_tpl->tpl_vars['addon_title']->value) {?>
         <div class="addon-title">

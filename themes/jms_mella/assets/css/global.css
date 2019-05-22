@@ -3722,7 +3722,7 @@ a.wishlist_top {
     font-size: 20px;
     padding-top: 6px; }
   .countdown-box .countdown-section {
-    min-width: 60px;
+    width: 60px;
     height: 60px;
     padding: 0; }
   .mega-tab-right .mega_cates_tab .addon-title h3, .mega-tab-right .product_tab .addon-title h3 {
